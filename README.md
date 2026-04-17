@@ -1,21 +1,22 @@
 # Employee Salary Prediction System
 
-A Machine Learning web application that predicts employee salary based on user inputs such as experience, education, performance, and other factors.
+Employee Salary Prediction System is a Machine Learning based web application developed to estimate employee salaries using parameters such as experience, education, job role, and performance. The project helps organizations make faster and data-driven salary decisions through predictive analytics.
 
-## Live Demo
+## Live Application
 🔗 https://employee-salary-predictor-s.streamlit.app/
 
-## Features
-- Predicts employee salary using Machine Learning
-- Classifies salary level (Low / Medium / High)
-- User-friendly Streamlit interface
-- Fast and accurate predictions
+## Key Features
+- Predicts approximate employee salary instantly
+- Classifies salary level as Low, Medium, or High
+- Interactive and user-friendly web interface
+- Accurate predictions using trained ML models
+- Real-time input-based results
 
-## Algorithms Used
+## Machine Learning Models Used
 - Random Forest Regressor
 - Logistic Regression Classifier
 
-## Technologies Used
+## Technologies & Libraries
 - Python
 - Streamlit
 - Pandas
@@ -25,34 +26,19 @@ A Machine Learning web application that predicts employee salary based on user i
 - Seaborn
 - Joblib
 
-## Project Structure
-- `app.py` – Main Streamlit application
-- `requirements.txt` – Required libraries
-- `model.pkl` – Trained ML model
-- `dataset.csv` – Dataset used for training
+## Project Workflow
+1. Data Collection and Analysis  
+2. Data Cleaning & Preprocessing  
+3. Feature Selection  
+4. Model Training & Testing  
+5. Performance Evaluation  
+6. Deployment as Web Application
 
-## How to Run Locally
+## Use Case
+This project can be useful for HR departments, recruiters, startups, and organizations to estimate salary packages based on candidate details and reduce manual effort.
 
-1. Clone repository
+## Conclusion
+The project demonstrates how Machine Learning can solve real-world business problems efficiently. It combines prediction accuracy with an easy-to-use interface, making salary estimation simple and effective.
 
-```bash
-git clone <your-github-link>
-cd employee-salary-prediction-system
-
-2. Install dependencies
-pip install -r requirements.txt
-
-3. Run app
-streamlit run app.py
-
-
-## Deployment
-
-Deployed using Streamlit Community Cloud.
-
-## Output
-
-The system predicts:
-
-Exact salary amount
-Salary level (Low / Medium / High)
+## Author
+**Kandi Aditri Shreeya**
