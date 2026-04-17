@@ -36,9 +36,3 @@ Employee Salary Prediction System is a Machine Learning based web application de
 
 ## Use Case
 This project can be useful for HR departments, recruiters, startups, and organizations to estimate salary packages based on candidate details and reduce manual effort.
-
-## Conclusion
-The project demonstrates how Machine Learning can solve real-world business problems efficiently. It combines prediction accuracy with an easy-to-use interface, making salary estimation simple and effective.
-
-## Author
-**Kandi Aditri Shreeya**
